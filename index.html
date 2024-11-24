@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="لعبة الثعبان الكلاسيكية بتصميم عصري، العب الآن وحاول تحقيق أعلى نتيجة!">
+		<meta name="author" content="23MohammeYT">
+		<meta name="keywords" content="لعبة الثعبان, لعبة كلاسيكية, ألعاب HTML, JavaScript, ألعاب ويب, تصميم عصري, Snake Game">
+		<title>لعبة الثعبان</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="game-container">
+			<h1>لعبة الثعبان</h1>
+			<canvas id="gameCanvas" width="400" height="400"></canvas>
+			<div class="score">
+				<p>النتيجة: <span id="score">0</span></p>
+				<p>أعلى نتيجة: <span id="highScore">0</span></p>
+			</div>
+			<!--
+			<div class="start-button">
+				<button onclick="restartGame()">ابدأ من جديد</button>
+			</div>
+			-->
+		</div>
+		<script src="game.js"></script>
+	</body>
+</html>
